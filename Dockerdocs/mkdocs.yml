@@ -2,19 +2,19 @@ site_name: My Docs
 
 theme:
   language: pt-BR
-  logo: images/logo.png
+#  logo: images/logo.png
   name: material
   features:
     - navigation.tabs
     - navigation.expand
   palette:
     - scheme: default
-      primary: black
+      primary: indigo
       toggle:
         icon: material/weather-night
         name: Modo noturno
     - scheme: slate
-      primary: deep purple
+      primary: indigo
       toggle:
         icon: material/weather-sunny
         name: Modo claro
