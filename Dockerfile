@@ -4,7 +4,7 @@ RUN pip install mkdocs
 RUN pip install mkdocs-material
 RUN pip install pymdown-extensions
 
-#RUN mkdir Docs
+# Copy Project to image docker // is not create new project
 COPY ./Dockerdocs /Dockerdocs/
 
 WORKDIR /Dockerdocs
